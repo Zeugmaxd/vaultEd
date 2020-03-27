@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Vault Education</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome  -->
+  <script src="https://kit.fontawesome.com/1460492a14.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- This is exactly why you need to write the CSS after the BootStrap link (OVVERIDe)-->
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Vault</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link" href="">Services</a></li>
+            <li class="nav-item"> <a class="nav-link" href="">Our Work</a></li>
+            <li class="navbar-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href=""> Why Us?</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">View our Stats and Insights</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">What Are Our Clients Saying?</a>
+              </div>
+            </li>
+            <li class="navbar-item"> <a class="nav-link" href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <!-- No need to specify for devices smaller than large: DEFAULT takes over-->
+          <h1 class="top-header">Learn anything, anywhere, anytime.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"> <i class="fab fa-apple"></i>  Download </button> <!-- i and span work the same way -->
+          <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fab fa-google-play"></i> Download </button>
+        </div>
+        <div class="col-lg-6 top-image-div">
+          <img class="top-image" src="images/front-img.jpg" alt="front-img">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="row">
+
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-chalkboard-teacher fa-5x"></i>
+        <h3 class="feature-title">One-on-one Tutoring</h3>
+        <p class="feature-text">Each class is tailored to your specific need.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-book-reader fa-5x"></i>
+        <h3 class="feature-title">Quality educational resources</h3>
+        <p class="feature-text">We provide highly-rated books, and thought-provoking quizzes.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-users fa-5x"></i>
+        <h3 class="feature-title">Committed faculty</h3>
+        <p>Our teachers are always one call away.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="big-daddy" class="carousel slide" data-ride="false">
+
+
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <h2 class="testimonial-text">"I finally understand Multi-Variable Calculus, all thanks to my superb Vault tutor!"</h2>
+                <img class="d-block w-100 testimonial-image" src="images/testimony-girl.jpg" alt="student-profile">
+                <em>Aaliyah Hiue, Singapore</em>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="testimonial-text">I earned three certificates within 2 months. It wouldn't have been possible without Vault.</h2>
+              <img class="d-block w-100 testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+              <em>Sophie Kutters, Texas</em>
+            </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#big-daddy" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#big-daddy" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Map For Your Educational Journey</h2>
+    <p>Simple and affordable price plans for you and your future.</p>
+
+<div class="row">
+
+    <div class="card col-lg-4 col-md-6 pricing-column">
+        <div class="card-header">
+          <h3>Seasonal</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">Free</h2>
+          <p>3 Subject Matches</p>
+          <p>Access to 5 Teachers</p>
+          <p>Unlimited for 3 Months</p>
+          <button type="button" class="btn btn-block btn-lg btn-outline-primary" >Sign Up</button>
+        </div>
+    </div>
+
+    <div class="card col-lg-4 col-md-6 pricing-column">
+        <div class="card-header">
+          <h3>Occassional</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">$29 / mo</h2>
+          <p>5 Subject Matches</p>
+          <p>Access to 10 Teachers</p>
+          <p>Unlimited for 6 Months</p> <!-- btn-block is to ensure responsiveness-->
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign Up</button>
+        </div>
+    </div>
+
+    <div class="card col-lg-4 pricing-column">
+        <div class="card-header">
+          <h3>All-Year Round</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">$59 / mo</h2>
+          <p>Unlimited Subject Matches</p>
+          <p>Access to all Teachers</p>
+          <p>Unlimited Forever</p>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign Up</button>
+        </div>
+    </div>
+
+</div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+  <div class="container-fluid bottom-section">
+    <h3 class="bottom-header">Start Learning Today.</h3>
+
+    <div class="download-buttons">
+      <button class="btn btn-block btn-lg btn-dark bottom-download-button1" type="button"> <i class="fab fa-apple"></i> Download</button>
+      <button class="btn btn-block btn-lg btn-light bottom-download-button2" type="button"> <i class="fab fa-google-play"></i> Download</button>
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+
+    <i class="contact-icon fab fa-twitter"></i> <!-- fa-2x ||  fa-5x for icon sizes-->
+    <i class="contact-icon fab fa-facebook-f"></i>
+    <i class="contact-icon fab fa-instagram"></i>
+    <i class="contact-icon fas fa-envelope"></i>
+    <p class="copyright">© Copyright 2020 Vault Education</p>
+
+  </footer>
+
+</body>
+
+</html>
